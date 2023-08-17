@@ -91,7 +91,7 @@ class Sidebar extends React.Component {
         style={{ overflowX: 'hidden', top: this.props.notice ? '95px' : '65px' }}
         data-scroll-opacitymax='0.1'
       >
-        <div id={'side-nav-container'} style={{ minHeight: 'calc(100% - 50px)' }}>
+        <div id={'side-nav-container'} style={{ minHeight: 'calc(100% - 80px)' }}>
           <ul className='side-nav'>
             {sessionUser && Helpers.canUser('agent:*', true) && (
               <SidebarItem
